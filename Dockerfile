@@ -14,5 +14,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . /app.py 
 
 
+# Expose the port that the Telegram bot listens on
+EXPOSE 8443
+
 # Start the Telegram bot when the container starts
 CMD ["python", "app.py"]
