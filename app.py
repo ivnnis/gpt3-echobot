@@ -6,7 +6,7 @@ import os
 bot = telebot.TeleBot('6239823470:AAETcC684QIHOSGYRd35ZHh4w1rvU73MPME')
 
 # Set up OpenAI API using your API key
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Define a function to process user input and get the OpenAI API response
 def process_input(input_text):
