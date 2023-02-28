@@ -41,7 +41,7 @@ def echo_all(message):
     # Send the response back to the user
     bot.reply_to(message, response_text)
 
-# Start the bot
+# Start
 bot.polling()
 
 
