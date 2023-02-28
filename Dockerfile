@@ -4,6 +4,9 @@ FROM python:3.8
 # Set the working directory to /app
 WORKDIR /app
 
+# Copy the requirements.txt file to the working directory
+COPY . /requirements.txt .
+
 # Install the required packages
 RUN pip install --no-cache-dir -r requirements.txt
 
