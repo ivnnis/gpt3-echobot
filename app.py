@@ -3,10 +3,10 @@ import openai
 import os
 
 # Set up the Telegram bot using your bot token
-bot = telebot.TeleBot('6239823470:AAETcC684QIHOSGYRd35ZHh4w1rvU73MPME')
+bot = telebot.TeleBot('TOKEN')
 
 # Set up OpenAI API using your API key
-openai.api_key = "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"
+openai.api_key = 'TOKEN'
 
 # Define a function to process user input and get the OpenAI API response
 def process_input(input_text):
